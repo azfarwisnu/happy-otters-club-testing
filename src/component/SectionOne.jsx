@@ -3,6 +3,9 @@ import React from "react";
 import chara1 from "../assets/img/brown sugar with bucket hat and cholo outfit.png";
 import chara2 from "../assets/img/greyish red with snap back and t-shirt.png";
 import chara3 from "../assets/img/cumin ochre with beanie and hoodie.png";
+import dividerblack from "../assets/img/divider-black.png";
+
+import SectionOneBlack from "./SectionOneBlack";
 
 class SectionOne extends React.Component {
   render() {
@@ -22,32 +25,28 @@ class SectionOne extends React.Component {
             <div className="fluid">
               <div className="transparent-section">
                 <div className="col-12 row top mb-4">
-                  <div className="col-1 col-md-6 left-section">
-                    <p>left</p>
-                  </div>
+                  <div className="col-1 col-md-6 left-section"></div>
                   <div className="col-11 col-md-6 right-section">
                     <div className="content-right-section col-md-8 col-12">
-                      <h1 className="text-center">Soldout</h1>
+                      <div className="text-center pb-4">
+                        <h1>Soldout</h1>
+                        <img src={dividerblack} alt="divider-black" />
+                      </div>
                       <p className="text-justify pb-2">
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum is
-                        that it has a more-or-less normal distribution of
-                        letters, as opposed to using 'Content here, content
-                        here', making it look like readable English. Many
-                        desktop publishing packages and web page editors now use
-                        Lorem Ipsum as their default model text, and a search
-                        for 'lorem ipsum' will uncover many web sites still in
-                        their infancy.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Mauris orci risus, auctor in rhoncus in, sed sem.
+                        Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Aliquam risus
+                        elit, rutrum eu sapien vitae.
                       </p>
                       <button className="btn">
-                          <span className="mx-3">VIEW ON OPENSEA</span>
+                        <span className="mx-3">VIEW ON OPENSEA</span>
                       </button>
                     </div>
                   </div>
                 </div>
                 <div className="col-12 sc-1">
-                    <p>lkaflkaf</p>
+                  <SectionOneBlack />
                 </div>
               </div>
             </div>
