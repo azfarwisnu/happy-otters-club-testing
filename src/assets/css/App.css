@@ -73,12 +73,15 @@ html {
 
 .sc-1 {
   background-color: black;
-  min-height: 500vh;
-  margin-top: 5%;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin-top: 20%;
 }
 
 .content-right-section {
-  padding-top: 40%;
+  padding-top: 30vh;
+  margin-left: 10%;
 }
 
 .content-right-section h1 {
@@ -165,6 +168,46 @@ html {
   margin-left: 0%;
 }
 
+.section-two-black {
+  padding-left: 200px;
+}
+
+
+.section-two-black .arrow img {
+  margin-left: -18%;
+  width: 70%;
+  padding-top: 10%;
+}
+
+.section-two-black .span-text {
+  margin-top: 2.5%;
+  margin-left: -10%;
+}
+
+.section-two-black .span-text p {
+  color: white;
+  padding-bottom: 35px;
+  font-family: "DM Sans", sans-serif;
+  src: url("../fonts/dm-sans/DMSans-Bold.ttf") format("trutype");
+  font-weight: 200px;
+}
+
+
+.elipse {
+  width: 90%;
+  height: 100%;
+  border-radius: 50%;
+  border: 8px #FBD8C6 solid;
+}
+
+.elipse p {
+  font-family: "Blue Dream", sans-serif;
+  src: url("../fonts/blue-dream/BlueDream-Regular.otf") format("opentype");
+  color: #FBD8C6;
+  font-size: 100px;
+  padding: 60px 10px 0px 10px;
+}
+
 @media screen and (max-width: 500px) {
   .hero-section {
     background-image: url('../img/pink and gold marble bg.png');
@@ -196,7 +239,7 @@ html {
   .sc-1 {
     background-color: black;
     min-height: 500vh;
-    margin-top: 80%;
+    margin-top: 100%;
   }
 
   .fluid {
@@ -235,6 +278,11 @@ html {
     text-align: center;
   }
 
+  .content-right-section {
+    padding-top: 30%;
+    margin-left: 0%;
+  }
+
   .section-one-black .left h1 {
     font-family: "Blue Dream", sans-serif;
     src: url("../fonts/blue-dream/BlueDream-Regular.otf") format("opentype");
@@ -259,6 +307,51 @@ html {
 
   .section-one-black .left p {
     font-size: 16px;
+  }
+
+  .section-two-black {
+    padding-left: 0;
+  }
+
+  .section-two-black .arrow img {
+    margin-left: -80%;
+    width: 200%;
+    padding-top: 50%;
+  }
+
+  .elipse-box {
+    margin-left: 10%;
+    padding-bottom: 40px;
+  }
+
+  .elipse {
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px #FBD8C6 solid;
+    text-align: center;
+  }
+
+  .elipse p {
+    font-family: "Blue Dream", sans-serif;
+    src: url("../fonts/blue-dream/BlueDream-Regular.otf") format("opentype");
+    color: #FBD8C6;
+    font-size: 80px;
+    padding: 50px 10px 0px 10px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .section-two-black .span-text p {
+    color: white;
+    padding-bottom: 0px;
+    margin-left: 10%;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    src: url("../fonts/dm-sans/DMSans-Bold.ttf") format("trutype");
+    font-weight: 200px;
   }
 
 }

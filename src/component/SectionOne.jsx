@@ -6,6 +6,7 @@ import chara3 from "../assets/img/cumin ochre with beanie and hoodie.png";
 import dividerblack from "../assets/img/divider-black.png";
 
 import SectionOneBlack from "./SectionOneBlack";
+import SectionTwoBlack from "./SectionTwoBlack";
 
 class SectionOne extends React.Component {
   render() {
@@ -47,6 +48,7 @@ class SectionOne extends React.Component {
                 </div>
                 <div className="col-12 sc-1">
                   <SectionOneBlack />
+                  <SectionTwoBlack />
                 </div>
               </div>
             </div>

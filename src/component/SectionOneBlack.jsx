@@ -7,7 +7,7 @@ class SectionOneBlack extends React.Component {
   render() {
     return (
       <>
-        <div className="row section-one-black">
+        <div className="row section-one-black pb-4 mb-4">
           <div className="col-12 col-md-5 left ">
             <div className="mx-4 px-4">
               <h1>WHO WE ARE?</h1>
