@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Blue Dream";
+    src: url("../fonts/blue-dream/BlueDream-Regular.otf") format("opentype");
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section {
+    background-image: url('../img/pink and gold marble bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+  }
+
+  .scrolling-section {
+      z-index: 1;
+  }
+  
+  .chara-block {
+    margin-left: -20%;  
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .chara-1 {
+    width: 60%;
+    z-index: 3;
+    position: relative;
+  }
+  
+  .chara-2 {
+    z-index: 2;
+    position: absolute;
+    left: 25%;
+    width: 55%;
+    bottom: 0;
+  }
+  
+  .chara-3 {
+    z-index: 1;
+    position: absolute;
+    left: 48%;
+    width: 50%;
+    bottom: 0;
+  }
+
+  .content {
+    padding-top: 100vh;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .second-section {
+    min-height: 100vh;
+  }
+  
+  .fluid {
+    display: flex;
+  }
+
+  .transparent-section {
+    height: 500vh;
+    margin-top: -50%;
+    width: 100%;
+  }
+
+  .sc-1 {
+      background-color: black;
+      min-height: 500vh;
+      margin-top: 5%;
+  }
+
+  .content-right-section {
+      padding-top: 40%;
+  }
+
+  .content-right-section h1 {
+      font-family: "Blue Dream", sans-serif;
+      src: url("../fonts/blue-dream/BlueDream-Regular.otf") format("opentype");
+      font-size: 200px;
+      padding-bottom: 20px;
+      color: black;
+      font-weight: 180px;
+  }
+
+  .content-right-section p {
+    font-family: "DM Sans", sans-serif;
+    src: url("../fonts/dm-sans/DMSans-Bold.ttf") format("trutype");
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+  .content-right-section button {
+      background-color: black;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: bold;
+      height: 60px;
+      color: white;
+  }
+
+  @media screen and (max-width: 500px) {
+    .hero-section {
+      background-image: url('../img/pink and gold marble bg.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: 0;
+    }
+
+    .transparent-section {
+        height: 100vh;
+        margin-top: -230%;
+        width: 100%;
+      }
+
+      .content {
+        padding-top: 220%;
+        z-index: 1;
+        padding-bottom: 50px;
+        height: 200px;
+      }
+      
+      .second-section {
+        min-height: 100vh;
+      }
+
+      .sc-1 {
+        background-color: black;
+        min-height: 500vh;
+        margin-top: 80%;
+    }
+      
+      .fluid {
+        display: block;
+      }
+
+      .content-right-section h1 {
+        font-family: "Blue Dream", sans-serif;
+        src: url("../fonts/blue-dream/BlueDream-Regular.otf") format("opentype");
+        font-size: 100px;
+        color: black;
+        font-weight: 180px;
+    }
+
+    .content-right-section p {
+        font-family: "DM Sans", sans-serif;
+        src: url("../fonts/dm-sans/DMSans-Bold.ttf") format("trutype");
+        font-size: 14px;
+        padding-bottom: 20px;
+        color: black;
+    }
+
+    .content-right-section button {
+        background-color: black;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+        height: 40px;
+        color: white;
+        text-align: center;
+    }
+    
+  }
