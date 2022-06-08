@@ -223,6 +223,7 @@ html {
   width: 100%;
   z-index: 1;
   margin-top: -15%;
+  padding-bottom: 300px;
 }
 
 
@@ -369,7 +370,7 @@ html {
 
 .section-six-black .section-six-content .right {
   padding-top: 100px;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 
 .section-six-black .section-six-content .right h1 {
@@ -639,6 +640,7 @@ html {
     width: 100%;
     z-index: 1;
     margin-top: -65%;
+    padding-bottom: 50px;
   }
 
   .section-four-black .adidas {
@@ -711,7 +713,7 @@ html {
     background-size: cover;
     min-height: 50vh;
     width: 100%;
-    margin-top: -50px;
+    margin-top: -70px;
   }
 
   .section-six-black .section-six-content{
