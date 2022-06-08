@@ -1,12 +1,19 @@
 import React from "react";
 
+/*call asset image */
 import chara1 from "../assets/img/brown sugar with bucket hat and cholo outfit.png";
 import chara2 from "../assets/img/greyish red with snap back and t-shirt.png";
 import chara3 from "../assets/img/cumin ochre with beanie and hoodie.png";
 import dividerblack from "../assets/img/divider-black.png";
 
+/*call page asset */
 import SectionOneBlack from "./SectionOneBlack";
 import SectionTwoBlack from "./SectionTwoBlack";
+import SectionThreeBlack from "./SectionThreeBlack";
+import SectionFourBlack from "./SectionFourBlack";
+import SectionFiveBlack from "./SectionFiveBlack";
+import SectionSixBlack from "./SectionSixBlack";
+import SectionSevenBlack from "./SectionSevenBlack";
 
 class SectionOne extends React.Component {
   render() {
@@ -15,12 +22,14 @@ class SectionOne extends React.Component {
         <div className="hero-section">
           <div className="container">
             <div className="chara-block">
+              {/* 3 image character */}
               <img src={chara1} alt="chara1" className="chara-1" />
               <img src={chara2} alt="chara2" className="chara-2" />
               <img src={chara3} alt="chara3" className="chara-3" />
             </div>
           </div>
         </div>
+        {/* second section for absolute */}
         <div className="content content-responsive">
           <div className="second-section">
             <div className="fluid">
@@ -46,9 +55,15 @@ class SectionOne extends React.Component {
                     </div>
                   </div>
                 </div>
+                {/* call page */}
                 <div className="col-12 sc-1">
                   <SectionOneBlack />
                   <SectionTwoBlack />
+                  <SectionThreeBlack />
+                  <SectionFourBlack />
+                  <SectionFiveBlack />
+                  <SectionSixBlack />
+                  <SectionSevenBlack />
                 </div>
               </div>
             </div>
